@@ -54,10 +54,24 @@ p {
   text-align: left;
 }
 
+.intro-text{
+  color: #912ce0;
+}
+
+.intro-text-2{
+  color: #912ce0;
+}
+
 .top {
-  background-color: #ccddea;
+  background-color: black;
+  background-image: url(https://apod.nasa.gov/apod/image/2207/STScI-WebbSouthernRing.png);
+  background-size: 100% 100%;
   position: relative;
   padding-top: 100px;
+}
+
+.shuttle{
+  margin-top: 50px;
 }
 
 .tcloud {
@@ -69,7 +83,9 @@ p {
 .bcloud {
   position: absolute;
   left: 300px;
-  bottom: 300px;
+  bottom: 500px;
+  width: auto;
+  height: auto;
 }
 
 .skill-row{
