@@ -6,7 +6,7 @@ body {
 }
 
 a{
-  color: #11999E;
+  color: orange;
   font-family: 'Montserrat', sans-serif;
   margin: 10px 20px;
   text-decoration: none;
@@ -27,12 +27,12 @@ a:hover{
 h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
-  color: #66BFBF;
+  color: #00092C;
 }
 
 h3 {
   font-family: 'Montserrat', sans-serif;
-  color: #11999E;
+  color: white;
 }
 
 hr{
@@ -55,11 +55,15 @@ p {
 }
 
 .intro-text{
-  color: #912ce0;
+  color: white;
+  margin: 0 25%;
 }
 
 .intro-text-2{
-  color: #912ce0;
+  color: white;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-bottom: 100px;
 }
 
 .top {
@@ -67,25 +71,18 @@ p {
   background-image: url(https://apod.nasa.gov/apod/image/2207/STScI-WebbSouthernRing.png);
   background-size: 100% 100%;
   position: relative;
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
 .shuttle{
   margin-top: 50px;
 }
 
-.tcloud {
+.sat {
   position: absolute;
-  right: 280px;
-  top: 50px;
-}
-
-.bcloud {
-  position: absolute;
-  left: 300px;
-  bottom: 500px;
-  width: auto;
-  height: auto;
+  display: block;
+  right: 100px;
+  top: 0;
 }
 
 .skill-row{
@@ -96,11 +93,11 @@ p {
 }
 
 .middle-container{
-  background-color: #F0F5F9;
+  background-color: #6E85B7;
 }
 
 .bottom-container{
-  background-color: #C9D6DF;
+  background-color: black;
   padding: 0.2rem 0 1rem 0;
 }
 
